@@ -1,6 +1,6 @@
-# 🛢️ AI-EM-WellLog: Resistivity Analysis in Marlim Oilfield Wells
+# AI-EM-WellLog: Resistivity Analysis in Marlim Oilfield Wells
 
-## 📌 Project Overview
+## Project Overview
 
 This project performs exploratory data analysis and unsupervised machine learning on synthetic resistivity well log data from the **MR3D Phase 4** dataset, modeled on the **Marlim oilfield**, a deep-water turbidite reservoir off the Brazilian coast.
 
@@ -11,7 +11,7 @@ The main objective is to:
 
 ---
 
-## 🧪 Dataset
+## Dataset
 
 **Source**: [MR3D Phase 4: Synthetic Resistivity Well Log Dataset](https://doi.org/10.3389/feart.2024.1422255)  
 **Format**: `.LAS` well log files from 27 synthetic wells  
@@ -23,7 +23,7 @@ These synthetic logs simulate real high-frequency resistivity behavior seen in p
 
 ---
 
-## 🛠️ What I Did
+##  What I Did
 
 ### 1. **Data Collection & Preprocessing**
 - Parsed `.LAS` files using the `lasio` library.
@@ -53,7 +53,7 @@ These synthetic logs simulate real high-frequency resistivity behavior seen in p
   - Isolated high-resistivity clusters as potential hydrocarbon zones
 ---
 
-## 📊 Key Observations
+##  Key Observations
 
 - **Resistivity Outliers**:
   - 3 wells (e.g., `1-RJS-0239`, `1-RJS-219A`) showed abnormal spikes between 2600–3800m.
@@ -68,7 +68,7 @@ These synthetic logs simulate real high-frequency resistivity behavior seen in p
 
 ---
 
-## 🔍 Why This Matters
+##  Why This Matters
 
 Understanding subsurface resistivity variations is **critical in oil & gas exploration**. This project bridges AI with geophysics, offering:
 
